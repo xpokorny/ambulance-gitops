@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xpoky-ambulance-ufe-content
+spec:
+  microFrontend: xpoky-ambulance-ufe
+  element: xpoky-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?xpoky-ambulance-wl(/.*)?$"
