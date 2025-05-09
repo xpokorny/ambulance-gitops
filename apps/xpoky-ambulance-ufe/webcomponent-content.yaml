@@ -4,7 +4,10 @@ metadata:
   name: xpoky-ambulance-ufe-content
 spec:
   microFrontend: xpoky-ambulance-ufe
-  element: xpoky-ambulance-wl-list
+  element: xpoky-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /xpoky-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
