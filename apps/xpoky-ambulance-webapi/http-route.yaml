@@ -27,11 +27,11 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /<pfx>-openapi-ui
+            value: /xpoky-openapi-ui
       backendRefs:
         - group: ""
           kind: Service
-          name: <pfx>-openapi-ui
+          name: xpoky-openapi-ui
           port: 80
     - matches:
         - path:
