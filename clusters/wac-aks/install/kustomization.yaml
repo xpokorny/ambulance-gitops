@@ -12,7 +12,7 @@ labels:
 
 resources:
 - ../../../apps/xpoky-ambulance-ufe
-
+- ../../../apps/<pfx>-ambulance-webapi
 
 components:
 - ../../../components/version-release
