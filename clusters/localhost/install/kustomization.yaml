@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/xpoky-ambulance-ufe
+- ../../../apps/xpoky-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/xpokorny/ambulance-webapi//deployments/kustomize/components/mongodb
