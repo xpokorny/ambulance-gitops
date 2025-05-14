@@ -7,12 +7,12 @@ spec:
   element: polyfea-md-app # element, ktorý bude vložený na stránku
   attributes: # atribúty elementu polyfea-md-app
     - name: headline
-      value: Zoznam čakajúcich xpoky
+      value: Medical Appointment Scheduling System
     - name: short-headline
-      value: Zoznam čakajúcich xpoky
+      value: Medical Appointment Scheduling System
     - name: supporting-text
       value: |
-        Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+        Atomate and manage the process of scheduling, rescheduling, and canceling medical appointments between patients and healthcare providers
     - name: material-icon
       value: home_health
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
